@@ -1,0 +1,20 @@
+{
+    "name":"Popup for huiji wiki",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "description":"Create a popup window when hover on links for huiji wiki",
+    "content_scripts":[
+        {
+            "js":[
+                "content.js"
+            ],
+            "css":[
+                "style.css"
+            ],
+            "matches":[
+                "https://*.huijiwiki.com/*"
+            ]
+        }
+    ],
+    "permissions":["activeTab"]
+}
