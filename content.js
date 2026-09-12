@@ -5,7 +5,7 @@ const save=new Map();
 const maxV=10;
 initialize();
 
-document.addEventListener("mouseover",async (e) => {
+document.addEventListener("mouseover",(e) => {
     const link=e.target.closest("a");
     if(link&&link.href.includes("huijiwiki.com")){
         clearTimeout(clearTimeoutID);
