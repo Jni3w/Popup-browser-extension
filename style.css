@@ -2,7 +2,7 @@
     position:fixed;
     width:350px;
     max-height:350px;
-    overflow:hidden;
+    overflow:auto;
     background-color: white;
     padding: 16px;
     border-width:1px;

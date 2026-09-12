@@ -1,6 +1,6 @@
 {
     "name":"Popup for huiji wiki",
-    "version":"1.0.0",
+    "version":"1.1.0",
     "manifest_version":3,
     "description":"Create a popup window when hover on links for huiji wiki",
     "content_scripts":[
