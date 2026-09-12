@@ -23,7 +23,6 @@ document.addEventListener("mouseout",(e)=>{
 
 preV.addEventListener("mouseover",()=>{
     if(preV.style.display=="block"){
-        console.log("enter");
         clearTimeout(clearTimeoutID);
     }
 })
@@ -50,7 +49,6 @@ async function getInfo(link){
         if(save.has(link.href)){
             const temp=save.get(link.href);
             display(temp[0],temp[1]);
-            console.log("activated");
             return;
         }
         const response=await fetch(searchApi);
@@ -80,7 +78,6 @@ function display(page,rect){
 }
 
 function hide(){
-    console.log("hide");
     clearTimeoutID=setTimeout(()=>{
         preV.style.display="none";
         console.log("erased");
